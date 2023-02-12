@@ -11,7 +11,7 @@
 
 # Features
 
-- [x] Valida o Usuário e da acesso
+- [x] Usando Alert para somar
     
 <h1 align="center">
     <img alt="GIF" title="GIF" src="/img/Animacao.gif"/>
