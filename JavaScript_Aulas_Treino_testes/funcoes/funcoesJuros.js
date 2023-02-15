@@ -1,6 +1,6 @@
 function increnebtarJuros(valor, percentualJuros) {
     const valorDeAcrecimo = (percentualJuros / 100) * valor;
-    return valor + percentualJuros
+    return valor + valorDeAcrecimo;
 }
 
 console.log(increnebtarJuros(100, 5))
