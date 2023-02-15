@@ -6,7 +6,11 @@ const rl = readline.createInterface({
 });
 
 rl.question('Digite um número: ', (numero) => {
+  if (numero == 5) {
   console.log('Você digitou o número:', numero);
+  }else {
+    console.log("Digite ou numero");
+  }
   rl.close();
 });
 
