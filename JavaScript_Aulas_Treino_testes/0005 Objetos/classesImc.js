@@ -29,6 +29,6 @@ class Pessoa {
     }
 }
 
-const roney = new Pessoa ('Roney', 69, 1.69);
+const roney = new Pessoa ('Roney', 66, 1.69);
 console.log(roney.calcularImc().toFixed(2));
 console.log(roney.classificarImc());
