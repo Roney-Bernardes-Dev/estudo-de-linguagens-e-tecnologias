@@ -9,10 +9,10 @@ class Pessoa {
         this.altura = altura;
     }
 
-    calcularImc(peso, altura) {
-        return peso / (altura * altura); 
+    calcularImc() {
+        return this.peso / (this.altura * this.altura); 
     }
 }
 
-const roney = new Pessoa ('Roney ', 65, 1.69 )
-console.log(roney.calcularImc(65, 1.69));
+const roney = new Pessoa ('Roney', 69, 1.69)
+console.log(roney.calcularImc().toFixed(2));
