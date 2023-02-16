@@ -1,19 +1,20 @@
-function escrevaNome(nome) {
-    console.log('Meu nome é: ' + nome);
+function aplicarDesconto(valor, desconto) {
+    return valor - (valor * (desconto / 100));
 }
 
-escrevaNome('Roney');
+function aplicarJuros(valor, juros) {
+    return valor + (valor * (juros / 100));
+}
 
-function anilisarIdade(idade) {
-    if (idade < 18 ) {
-        console.log('Você é menor de idade');
-    } else if (idade >= 18 && idade <=35) {
-        console.log('Você é um jovem');
-    } else if (idade > 35 && idade <= 60) {
-        console.log('Você é um Adulto');
-    } else if (idade > 60) {
-        console.log('Você é um Idoso');
+(function (percoEtiqueta, opcaoPagamento) {
+    if (opcaoPagamento === 1) {
+        console.log(aplicarDesconto(percoEtiqueta, 10));
+    } else if (opcaoPagamento === 2) {
+        console.log(aplicarDesconto(percoEtiqueta, 15));
+    } else if (opcaoPagamento === 3) {
+        console.log(percoEtiqueta);
+    }else {
+        console.log(aplicarJuros(percoEtiqueta, 10));
     }
 }
-
-anilisarIdade(66);
+(100, 4));
