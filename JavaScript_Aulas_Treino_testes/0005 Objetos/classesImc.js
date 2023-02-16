@@ -15,7 +15,7 @@ class Pessoa {
 
     classificarImc() {
         const imc = this.calcularImc();
-        if (imc < 15.5) {
+        if (imc < 18.5) {
             return 'Abaixo do peso'; 
         } else if (imc >= 18.5 && imc < 25) {
              return 'Peso Normal';
