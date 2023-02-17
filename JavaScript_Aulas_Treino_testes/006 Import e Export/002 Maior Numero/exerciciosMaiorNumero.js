@@ -1,4 +1,4 @@
-const {gets, print} = require('./funcoes_Auxiliares');
+const {gets, print} = require('../funcoes_Auxiliares');
 
 const numerosSorteados = gets();
 let maiorValorEcontrado = 0;
