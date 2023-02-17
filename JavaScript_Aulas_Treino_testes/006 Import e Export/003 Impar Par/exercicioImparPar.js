@@ -8,16 +8,12 @@ for (let i = 0; i < numerosSorteados; i++) {
     const numeroImparSorteado = gets();
     const numeroParSorteado = gets();
 
-    if (numeroImparSorteado % 2 === 1 && numeroImparSorteado > menorValorEcontrado) {
-        if (menorValorEcontrado === null) {
-            menorValorEcontrado = numeroImparSorteado;
-        }
+    if (numeroImparSorteado % 2 === 1 && menorValorEcontrado === null && numeroImparSorteado > menorValorEcontrado) {
+        menorValorEcontrado = numeroImparSorteado;
         menorValorEcontrado = numeroImparSorteado;
         print(`Menor número Par encontrado é: ${numeroImparSorteado}`);
-    } else if (numeroParSorteado % 2 === 0 && numeroParSorteado > maiorValorEcontrado) {
-        if (maiorValorEcontrado === null) {
-            maiorValorEcontrado = numeroParSorteado;
-        }
+    } else if (numeroParSorteado % 2 === 0 && maiorValorEcontrado === null && numeroParSorteado > maiorValorEcontrado) {
+        maiorValorEcontrado = numeroParSorteado;
         maiorValorEcontrado = numeroParSorteado;
         print(`Maior número Par encontrado é: ${numeroParSorteado}`);
     }
