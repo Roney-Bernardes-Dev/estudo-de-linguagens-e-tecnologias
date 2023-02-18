@@ -1,11 +1,24 @@
 const {gets, print} = require('./funcoes_Auxiliares');
 
-const media = gets()
 
-if (media >= 0 && media < 5) {
-    print('Reprovado');
-} else if (media >= 5.5 && media <= 7) {
-    print('Recuperação');
+const aliquota1 = 0.05;
+const aliquota2 = 0.1;
+const aliquota3 = 0.15;
+
+const salarioBruto = parseFloat(gets());
+const adicionalBeneficios = parseFloat(gets());
+
+let percentualImposto, salarioLiquido;
+
+if (salarioBruto <= 1100) {
+  percentualImposto = aliquota1;
+} else if (salarioBruto <= 2500) {
+  percentualImposto = aliquota2;
 } else {
-    print('Aprovado');
+  percentualImposto = aliquota3;
 }
+
+salarioLiquido =
+  salarioBruto * (1 - percentualImposto) + adicionalBeneficios;
+
+print(salarioLiquido.toFixed(2));

@@ -1,4 +1,4 @@
-const entradas = [7.5];
+const entradas = [2000, 250];
 
 let i = 0;
 
