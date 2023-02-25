@@ -1,11 +1,10 @@
-<?php 
+<?php
 
-$mensagem = "Ola, cara" ;
+$A = 5;
+$B = 2;
 
-echo $mensagem;
-
-$a = 2;
-$b = 5;
-
-$soma = $a + $b;
-print $soma;
+if ($B % 2 == 1) {
+    echo 'Número impar';
+} else {
+    echo 'Número par';
+}
