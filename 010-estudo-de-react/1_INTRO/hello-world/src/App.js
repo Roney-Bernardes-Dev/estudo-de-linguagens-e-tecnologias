@@ -6,7 +6,7 @@ function App() {
     <div className="App">
     <h1>Hello Wolrd</h1>
     <h2>Emment funcionou</h2>
-    <p>Sempre programe os codigos</p>    
+    <p>Meu Primeiro paragrafo em react</p>    
     </div>
   );
 }
