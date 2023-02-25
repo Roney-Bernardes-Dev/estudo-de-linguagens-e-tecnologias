@@ -9,4 +9,5 @@ function areaCirculo(raio) {
     return area
     
 }
+
 console.log(areaCirculo(15));
