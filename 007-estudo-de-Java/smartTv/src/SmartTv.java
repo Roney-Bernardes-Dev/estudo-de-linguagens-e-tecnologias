@@ -1,15 +1,15 @@
 public class SmartTv {
     
-    boolean lingada = false;
+    boolean ligada = false;
     int canal = 1;
     int volume = 25;
 
     public void ligar() {
-        lingada = true;
+        ligada = true;
     }
 
     public void desligar() {
-        lingada = false;
+        ligada = false;
     }
 
 }
