@@ -3,7 +3,7 @@ public class Usuario {
         
         SmartTv smartTv = new SmartTv();
 
-        if (smartTv.ligada)
+        
         System.out.println("Estado da Televisão: " + smartTv.ligada);
         System.out.println("Canal inicial: " + smartTv.canal);
         System.out.println("Volume inicial: " + smartTv.volume);
