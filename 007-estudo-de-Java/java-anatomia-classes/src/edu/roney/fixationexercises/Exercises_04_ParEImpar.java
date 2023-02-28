@@ -17,7 +17,7 @@ public class Exercises_04_ParEImpar {
             int numero;
             int quantidadePares = 0, quantidadeImpares = 0;
 
-            System.out.println("Quantidade de números: ");
+            System.out.println("Quantos laços você quer fazer: ");
             quantidadeNumero = scan.nextInt();
 
             int count = 0;
