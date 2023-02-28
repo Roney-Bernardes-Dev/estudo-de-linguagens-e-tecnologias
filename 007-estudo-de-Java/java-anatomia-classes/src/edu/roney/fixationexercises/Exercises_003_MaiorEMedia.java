@@ -1,5 +1,7 @@
 package edu.roney.fixationexercises;
 
+import java.util.Scanner;
+
 /*
  * Faça um programa que leia 5 números
  * Informe o maior número
@@ -7,6 +9,12 @@ package edu.roney.fixationexercises;
  */
 
 public class Exercises_003_MaiorEMedia {
-
+    public static void main(String[] args) {
+        try (Scanner scan = new Scanner(System.in)) {
+            
+            
+        }
+        
+    }
     
 }
