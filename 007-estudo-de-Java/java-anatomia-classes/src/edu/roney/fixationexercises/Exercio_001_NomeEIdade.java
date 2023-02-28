@@ -1,4 +1,4 @@
-package edu.roney.primeirasemana;
+package edu.roney.fixationexercises;
 
 import java.util.Scanner;
 
