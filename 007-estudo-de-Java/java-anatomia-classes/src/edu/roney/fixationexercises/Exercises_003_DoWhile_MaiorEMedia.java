@@ -8,7 +8,7 @@ import java.util.Scanner;
  * e a média desses npumeros
  */
 
-public class Exercises_003_MaiorEMedia {
+public class Exercises_003_DoWhile_MaiorEMedia {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
 
