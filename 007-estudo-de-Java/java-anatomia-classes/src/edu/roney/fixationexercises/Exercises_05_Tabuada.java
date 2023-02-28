@@ -1,8 +1,10 @@
 package edu.roney.fixationexercises;
 
+import java.util.Scanner;
+
 /*
  * Desenvolva um gerador de tabuada
- * capaz de gerar tabuadas de qualquer número entre 1 a 10
+ * capaz de gerar tabuadas de qualquer número de 1 a 10
  * o usuario deve informar qual o número da tabuada ele deseja ver
  * a saida deve ser coforme o exemplo abaixo
  
@@ -18,6 +20,19 @@ package edu.roney.fixationexercises;
 public class Exercises_05_Tabuada {
 
     public static void main(String[] args) {
+        try(Scanner scan = new Scanner(System.in)) {
+
+            System.out.println("Qual tabuada você quer ver: ");
+            int tabuada = scan.nextInt();
+
+            System.out.println("Tabueada de " + tabuada);
+
+            for (int i = 1; i <= 10; i++) {
+                System.out.println(tabuada + " X " + i);
+                
+            }
+            
+        }
         
     }
     
