@@ -8,7 +8,7 @@ import java.util.Scanner;
  * e a quantidade de números impares.
  */
 
-public class Exercises_04_ParEImpar {
+public class Exercises_04_DoWhile_ParEImpar {
 
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
