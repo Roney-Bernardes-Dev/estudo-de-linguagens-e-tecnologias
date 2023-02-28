@@ -28,8 +28,8 @@ public class Exercises_05_Tabuada {
             System.out.println("Tabueada de " + tabuada);
 
             for (int i = 1; i <= 10; i++) {
-                System.out.println(tabuada + " X " + i);
-                
+                System.out.println(tabuada + " X " + i + " = " + (tabuada * 1));
+      
             }
             
         }
