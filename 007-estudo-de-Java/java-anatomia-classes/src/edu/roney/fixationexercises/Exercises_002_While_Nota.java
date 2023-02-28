@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
  */
 
- public class Exercises_002_Nota {
+ public class Exercises_002_While_Nota {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
         
