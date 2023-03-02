@@ -12,7 +12,6 @@ public class Main {
         minhaFila.enqueue(new No("quinto"));
 
         System.out.println(minhaFila);
-
         System.out.println(minhaFila.dequieue());
     }
 }
