@@ -18,7 +18,7 @@ public class Exercises_07_Vetor_OrdenInversa {
         }
 
         System.out.println("\nVetor Inverso: ");
-        for (int i =  (vetor.length -1); i == 0; i--) {
+        for(int i =  (vetor.length -1); i >= 0; i--) {
             System.out.println(vetor[i]);
         }
 
