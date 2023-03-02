@@ -8,7 +8,7 @@ import java.util.Scanner;
  * imprima as consoantes
  */
 
-public class Exercises_08_Foreach_consoantes {
+public class Exercises_08_Foreach_Consoantes {
     public static void main(String[] args) {
        try (Scanner scan = new Scanner(System.in)) {
 
