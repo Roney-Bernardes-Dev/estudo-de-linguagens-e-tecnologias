@@ -43,7 +43,7 @@ public class Exercises_08_Vetor_consoantes {
         }
         System.out.println("Quantidade de consoantes: " + quantidadeConsoantes);
         
+        }
     }
-}
     
 }
