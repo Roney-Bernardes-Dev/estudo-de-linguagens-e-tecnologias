@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 
 
-public class Exercises_05_Tabuada {
+public class Exercises_05_For_Tabuada {
 
     public static void main(String[] args) {
         try(Scanner scan = new Scanner(System.in)) {
