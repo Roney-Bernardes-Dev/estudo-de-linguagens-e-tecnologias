@@ -8,7 +8,7 @@ package edu.roney.fixationexercises;
 public class Exercises_07_Vetor_OrdenInversa {
     public static void main(String[] args) {
         
-        int[] vetor = {-5, -5, 15, 50, 8, 4};
+        int[] vetor = {-5, -6, 15, 50, 8, 4};
         
         System.out.println("Vetor: ");
         int count = 0;
