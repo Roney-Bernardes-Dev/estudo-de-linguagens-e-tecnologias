@@ -61,7 +61,7 @@ public class Fila {
 
         if (refNoEntradaFila != null) {
             while (true) {
-                stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}] ---";
+                stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}] --->";
                 if (noAuxiliar.getObject() != null) {
                     noAuxiliar = noAuxiliar.getRefNo();
                 } else {
