@@ -7,6 +7,8 @@ package edu.roney.fixationexercises;
  */
 
 public class Exercises_08_Vetor_consoantes {
-    
+    public static void main(String[] args) {
+        
+    }
     
 }
