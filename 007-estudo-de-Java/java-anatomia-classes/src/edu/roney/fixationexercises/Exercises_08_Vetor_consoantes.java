@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Exercises_08_Vetor_consoantes {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+       try (Scanner scan = new Scanner(System.in)) {
 
         String[] consoantes = new String[6];
         int quantidadeConsoantes = 0;
@@ -21,13 +21,29 @@ public class Exercises_08_Vetor_consoantes {
             System.out.println("Letras: ");
             String letrtas = scan.next();
 
-            if (!(letrtas.equalsIgnoreCase("a"))) |
-                  (letrtas.equalsIgnoreCase("e")) |
-                  (letrtas.equalsIgnoreCase("i")) |
-                  (letrtas.equalsIgnoreCase("o")) |
-                  (letrtas.equalsIgnoreCase("u")) 
+            if ( !(letrtas.equalsIgnoreCase("a") |
+                   letrtas.equalsIgnoreCase("e") |
+                   letrtas.equalsIgnoreCase("i") |
+                   letrtas.equalsIgnoreCase("o") |
+                   letrtas.equalsIgnoreCase("u")) ) {
+                consoantes[count] = letrtas;
+                quantidadeConsoantes++;
+            }
+
+            count++;
             
-        } while();
+        } while(count < consoantes.length);
+
+        System.out.println("Consoantes: ");
+        for (String consoante : consoantes) {
+            if (consoante != null) {
+                System.out.println(consoante + " ");  
+            }
+        
+        }
+        System.out.println("Quantidade de consoantes: " + quantidadeConsoantes);
+        
     }
+}
     
 }
