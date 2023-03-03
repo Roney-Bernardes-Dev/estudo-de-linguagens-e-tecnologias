@@ -51,7 +51,7 @@ public class Fila {
     // fim do metodo first
 
     public boolean isEmpty() {
-        return refNoEntradaFila == null ? true : false;
+        return refNoEntradaFila == null? true : false;
     }
 
     @Override
@@ -61,8 +61,8 @@ public class Fila {
 
         if (refNoEntradaFila != null) {
             while (true) {
-                stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}] --->";
-                if (noAuxiliar.getObject() != null) {
+                stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}] ---> ";
+                if (noAuxiliar.getRefNo() != null) {
                     noAuxiliar = noAuxiliar.getRefNo();
                 } else {
                     stringRetorno += "null";

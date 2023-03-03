@@ -9,9 +9,8 @@ public class Main {
         minhaFila.enqueue(new No("segundo"));
         minhaFila.enqueue(new No("terceiro"));
         minhaFila.enqueue(new No("quarto"));
-        minhaFila.enqueue(new No("quinto"));
 
-        System.out.println(minhaFila);
+        System.out.print(minhaFila);
         System.out.println(minhaFila.dequieue());
     }
 }
