@@ -1,12 +1,15 @@
 const Events = () => {
     const handMyEvents = (e) => {
-        console.log("Ativado");
+        console.log(e); // mostra informações do evento
+
+
+        console.log("Ativou o Evento");
     };
 
     return (
         <div>
             <div>
-                <button>Clique aqui</button>
+                <button onClick={handMyEvents}>Clique aqui</button>
             </div>
         </div>
     );
