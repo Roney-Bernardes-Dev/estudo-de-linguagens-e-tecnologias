@@ -11,6 +11,9 @@ const Events = () => {
             <div>
                 <button onClick={handMyEvents}>Clique aqui</button>
             </div>
+            <div>
+                <button onClick={handMyEvents}>Clique aqui novamente</button>
+            </div>
         </div>
     );
 };
