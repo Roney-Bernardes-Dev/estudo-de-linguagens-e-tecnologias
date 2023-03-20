@@ -16,8 +16,8 @@ function consultarCep() {
             document.getElementById("localidade").innerHTML = response.localidade;
             document.getElementById("uf").innerHTML = response.uf;
             $("#title_Cep").html("CEP " + response.cep)
-            $(".cep").show();
-            $(".barra-progresso").hide();
+            //$(".cep").show();
+            //$(".barra-progresso").hide();
 
         }
     })
@@ -25,5 +25,5 @@ function consultarCep() {
 
 $(function(){
     $(".cep").hide();
-    $(".berra-progresso").hide();
-});
+    $(".barra-progresso").hide();
+})
