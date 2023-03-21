@@ -1,0 +1,65 @@
+service: AWS-com-node-rest
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  lambdaHashingVersion: '2021221'
+  region: us-east-1
+  iam:
+    role:
+      statements:
+      -Effect: allow
+        Action:
+          -dynamodb:PutItem
+          -dynamodb:UpdateItem
+          -dynamodb:GetItem
+          -dynamodb:scan
+        Resource:
+          -arn:aws:dynamodb:us-east-1:167880115321:table/ItemTableNew
+
+functions:
+  hello:
+    handler: src/handler.hello
+    events:
+    -http:
+    path: /
+    method: get
+  insertrItem:
+    handler: src/insertItem.handler
+    events:
+      -http:
+        path: /item
+        method: post
+  fetchItems:
+    handler: src/fetchItems.handler
+    events:
+      -http:
+        path: /items
+        method: get
+  fetchItem:
+    handler: src/fetchItem.handler
+    events:
+      -http:
+        path: /items
+        method: get
+  updateItem:
+    handler: src/updateItem.handler
+    events:
+     -http:
+        path: /items/{id}
+        method: put
+
+resources:
+  Resources:
+  ItemTableNew:
+    type: AWS::DynamoDB::Table
+    Propeties:
+    TableName: ItemtableNew
+    blillingMode: PLAY_PER_REQUIST
+    AttributeDefinitions:
+      -AttributeName: id
+      AttributeType: S
+    keySchema:
+      -AttribuleName: id
+      Keytype: HASH
