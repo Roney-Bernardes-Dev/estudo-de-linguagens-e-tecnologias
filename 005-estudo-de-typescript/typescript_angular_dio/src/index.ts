@@ -10,5 +10,4 @@ function printObjeto(pessoa: heroi) {
 printObjeto({
     name: "Bruce Wayne",
     vulgo: "Batman",
-
-})
+});
