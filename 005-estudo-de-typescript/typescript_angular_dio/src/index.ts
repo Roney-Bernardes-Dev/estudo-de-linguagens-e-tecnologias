@@ -1,4 +1,4 @@
-/*type heroi = {
+type heroi = {
     name: string;
     vulgo: string;
 };
@@ -11,10 +11,10 @@ printObjeto({
     name: "Bruce Wayne",
     vulgo: "Batman",
 });
-*/
+
 
 //decorators
-/*
+
 function ExibirNome(target: any) {
     console.log(target);
 }
@@ -23,9 +23,7 @@ class Funcionario {}
 
 @ExibirNome
 class Quincas {}
-*/
 
-/* 
 function apiVersion(version: string) {
     return (target: any) => {
         Object.assign(target.prototype, {__version: version});
@@ -37,4 +35,3 @@ class Api {}
 
 const api = new Api();
 console.log(api.__version);
-*/
