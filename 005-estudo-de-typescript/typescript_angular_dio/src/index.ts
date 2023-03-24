@@ -1,4 +1,4 @@
-type heroi = {
+/*type heroi = {
     name: string;
     vulgo: string;
 };
@@ -11,3 +11,5 @@ printObjeto({
     name: "Bruce Wayne",
     vulgo: "Batman",
 });
+*/
+
