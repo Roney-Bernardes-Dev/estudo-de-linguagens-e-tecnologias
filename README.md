@@ -1,4 +1,7 @@
-Meu Estudo de Tecnologias
+<div align="center">
+  <h1>Meu Estudo de Tecnologias</h1>
+</div>
+
 Este repositório foi criado para compartilhar e documentar meu progresso no estudo de várias tecnologias que venho explorando. Abaixo está uma lista das linguagens, frameworks e ferramentas que estou aprendendo no momento, juntamente com alguns exemplos de projetos e exercícios.
 
 Tecnologias Estudadas
