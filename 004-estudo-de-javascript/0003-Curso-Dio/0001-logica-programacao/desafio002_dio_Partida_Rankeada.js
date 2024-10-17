@@ -33,3 +33,4 @@
 //"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
 //Bons estudos 😉
+
